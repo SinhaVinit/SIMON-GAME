@@ -34,7 +34,7 @@ function animatePress(currentColour) {
   $("#"+currentColour).addClass("pressed");
   setTimeout(function() {
     $("#"+currentColour).removeClass("pressed");
-  }, 100);
+  }, 50);
 }
 
 $(document).keypress(function() {
